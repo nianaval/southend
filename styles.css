@@ -1,0 +1,500 @@
+@font-face {
+	font-family: 'Univers';
+	src: url('fonts/UniversLTStd.otf');
+}
+
+
+@font-face {
+	font-family: 'Univers Bold';
+	src: url('fonts/UniversLTStd-Bold.otf');
+}
+
+html, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1.title {
+	padding: 100px 0;
+	color: white;
+	font-family: "Univers Bold";
+	text-transform: uppercase;
+	font-size: 86px;
+	letter-spacing: 20px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+}
+
+h2 {
+	font-size: 24px;
+	font-family: "Univers Bold";
+}
+
+h3 {
+	font-size: 14px;
+	font-family: "Univers Bold";
+	display: inline;
+}
+
+p {
+	font-family: "Univers";
+	font-size: 14px;
+	display: inline;
+}
+
+p.bold {
+	font-family: "Univers Bold";
+	display: inline;
+	font-size: 24px;
+}
+
+p.caption {
+	font-family: "Univers";
+	display: inline;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+a {
+	font-family: "Univers";
+}
+
+.southendheader {
+	background-image: url("img/southendheader.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.main-content {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.intro {
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 70px;
+	line-height: 1.5;
+}
+
+.photosintro {
+	margin: 0 auto;
+	width: 60%;
+	padding-top: 30px;
+	line-height: 1.5;
+}
+
+p.intro {
+	font-size: 18px;
+}
+
+p.introphotos {
+	font-size: 18px;
+	margin-left: -5px;
+}
+
+.column1 {
+	width: 60%;
+	float: left;
+}
+
+.column1 img {
+	width:100%;
+}
+
+.column1vert {
+	width: 60%;
+	float: left;
+}
+
+.column1vert img {
+	width:100%;
+}
+
+.column2 {
+	width: 40%;
+	float: left;
+	padding-bottom: 20px;
+	padding: 0px 20px;
+	/*margin: 50px 0px;*/
+}
+
+.container {
+	width: 100%;
+	overflow: hidden;
+	margin: 100px 0px;
+}
+
+/* ------------------------------ PHOTOS ------------------------------ */
+
+.churchst {
+	min-height: 100%;
+	width:auto;
+    position: relative;
+    display: inline-block;
+    /*margin: 50px 0px;*/
+}
+
+.churchst .new {
+	display: none;
+	width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.churchst:hover .new {
+	display: inline;
+}
+
+.tremontspire {
+	min-width: 100%;
+	height:auto;
+    position: relative;
+    display: inline-block;
+    /*margin: 50px 0px;*/
+}
+
+.tremontspire .new {
+	display: none;
+	width:100%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+.tremontspire:hover .new {
+	display: inline;
+}
+
+.southendgrounds, .broadwaybridge, .washingtonxsavoy, .washingtonxwaltham, .washington, .shawmutxtremont {
+	min-width: 100%;
+	height:auto;
+    position: relative;
+    display: inline-block;
+    /*margin: 50px 0px;*/
+}
+
+.southendgrounds .new, .washingtonxsavoy .new, .washington .new {
+	display: none;
+	width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.southendgrounds:hover .new, .broadwaybridge:hover .new, .washingtonxsavoy:hover .new, .washingtonxwaltham:hover .new, .washington:hover .new, .shawmutxtremont:hover .new {
+	display: inline;
+}
+
+.broadwaybridge .new, .washingtonxwaltham .new, .shawmutxtremont .new {
+	display: none;
+	width:100%;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.maps {
+	background-image: url("img/headermap.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.photos {
+	background-image: url("img/old/8-broadwaybridgeOLD0.5.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.navigation-list {
+	/*padding: 50px 0;*/
+	margin: 30px;
+	text-align: center;
+}
+
+.navigation-list-item {
+	display: inline-block;
+	text-align: center;
+	width:300px;
+	overflow: hidden;
+	padding: 50px;
+	margin: 20px;
+	border:1px solid #DCDCDC;
+}
+
+a:link {
+	color: #000;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Univers Bold";
+	display: inline;
+}
+
+a:visited {	
+	color:#000;
+	text-decoration: none;
+	font-family: "Univers Bold";
+	display: inline;
+}
+
+a:hover {
+	color:#000;
+	text-decoration: underline;
+	font-family: "Univers Bold";
+	display: inline;
+}
+
+a:active {
+	color:#000;
+	text-decoration: none;
+	font-family: "Univers Bold";
+	display: inline;
+}
+
+a.nav {
+	color: #000;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+a.nav:visited {	
+	color:#000;
+	text-decoration: none;
+}
+
+a.nav:hover {
+	color:#000;
+	text-decoration: underline;
+}
+
+a.nav:active {
+	color:#000;
+	text-decoration: none;
+}
+
+a.caption:link {
+	color: #000;
+	text-decoration: underline;
+	font-size: 18px;
+	font-family: "Univers";
+	display: inline;
+}
+
+a.caption:visited {	
+	color:#000;
+	text-decoration: none;
+	font-family: "Univers";
+	display: inline;
+}
+
+a.caption:hover {
+	color:#696969;
+	text-decoration: underline;
+	font-family: "Univers";
+	display: inline;
+}
+
+a.caption:active {
+	color:#000;
+	text-decoration: none;
+	font-family: "Univers";
+	display: inline;
+}
+
+
+.backbutton-text {
+	font-family: "Avenir";
+	font-size: 15px;
+	color: #696969;
+}
+
+.backbutton {
+	padding: 10px;
+	border:1px solid #DCDCDC;
+	display: block;
+	width: 75px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+a.backbutton-link:link {
+	color: #696969;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+a.backbutton-link:visited {	
+	color:#696969;
+	text-decoration: none;
+}
+
+a.backbutton-link:hover {
+	color:#696969;
+	text-decoration: underline;
+}
+
+a.backbutton-link:active {
+	color:#696969;
+	text-decoration: none;
+}
+
+.carousel-title {
+	margin: 0 auto;
+	width: 66%;
+	padding-top: 50px;
+	line-height: 1.5;
+}
+
+.carousel {
+  position: relative;
+  width: 800px;
+  height: 640px;
+  overflow: hidden;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.carousel img {
+	width: 100%;
+
+}
+
+.carousel:hover .slide:after,
+.carousel:hover .counter,
+.carousel:hover .slide:before {
+  opacity: 1;
+}
+.slide {
+  float: right;
+  position: absolute;
+  z-index: 1;
+  width: 800px;
+  height: 640px;
+  background-color: #eee;
+  /*text-align: center;*/
+  transition: opacity 0.4s;
+  opacity: 1;
+  font-family: "Univers";
+}
+.slide:before {
+  content: attr(annot);
+  display: block;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: rgba(255,255,255,0.9);
+  font-size: 14px;
+  font-weight: 300;
+  z-index: 12;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-shadow: 0 0 1px #000;
+  font-family: "Univers";
+}
+.slide:after {
+  content: attr(slide);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  transition: opacity 0.3s;
+  width: 100%;
+  height: 100px;
+  opacity: 0;
+  background-image: linear-gradient(transparent, rgba(0,0,0,0.5));
+  text-align: left;
+  text-indent: 752px;
+  line-height: 142px;
+  font-size: 13px;
+  color: rgba(255,255,255,0.9);
+  text-shadow: 0 0 1px #000;
+  font-family: "Univers";
+}
+.counter {
+  position: absolute;
+  bottom: 20px;
+  right: 1px;
+  height: 20px;
+  width: 60px;
+  z-index: 2;
+  text-align: center;
+  color: #fff;
+  line-height: 21px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: "Univers";
+}
+.faux-ui-facia {
+  top: 0;
+  right: 0;
+  float: right;
+  position: absolute;
+  margin-top: 0;
+  z-index: 9;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.faux-ui-facia:checked {
+  z-index: 8;
+}
+.faux-ui-facia:checked + .slide {
+  opacity: 0;
+}
+.faux-ui-facia:checked:nth-child(1):checked {
+  z-index: 9;
+}
+.faux-ui-facia:nth-child(1):checked {
+  float: left;
+  z-index: 9;
+}
+.faux-ui-facia:nth-child(1):checked + .slide {
+  opacity: 1;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia {
+  float: left;
+  z-index: 8;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia + .slide {
+  opacity: 0;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia:checked {
+  z-index: 9;
+}
+.faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia:checked + .slide {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
