@@ -321,6 +321,7 @@ a.caption:active {
 	width: 75px;
 	margin-top: 10px;
 	margin-left: 10px;
+	position: fixed;
 }
 
 a.backbutton-link:link {
