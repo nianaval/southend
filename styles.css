@@ -328,6 +328,7 @@ a.caption:active {
 	bottom: 0;
 	left: 0;
 	background-color:#fff;
+	opacity: 30;
 }
 
 a.backbutton-link:link {
