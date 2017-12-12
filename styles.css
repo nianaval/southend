@@ -66,6 +66,26 @@ a {
 	background-position: center;
 }
 
+.navigation {
+	text-align: center;
+	/*margin-top: 120px;*/
+	/*text-align: center;*/
+}
+
+.navigation-list {
+	padding: 10px;
+	background-color: #f2f2f2;
+}
+
+.navigation-list-item {
+	display: inline;
+	padding-right: 80px;
+}
+
+.navigation-list-item2 {
+	display: inline;
+}
+
 .main-content {
 	width: 1200px;
 	margin: 0 auto;
@@ -81,7 +101,7 @@ a {
 .photosintro {
 	margin: 0 auto;
 	width: 60%;
-	padding-top: 70px;
+	padding-top: 30px;
 	line-height: 1.5;
 }
 
@@ -123,7 +143,7 @@ p.introphotos {
 .container {
 	width: 100%;
 	overflow: hidden;
-	margin: 100px 0px;
+	margin: 130px 0px;
 }
 
 /* ------------------------------ PHOTOS ------------------------------ */
@@ -212,13 +232,12 @@ p.introphotos {
 	background-position: center;
 }
 
-.navigation-list {
-	/*padding: 50px 0;*/
-	margin: 30px;
+.navigation-list-home {
+	margin: 30px 0px;
 	text-align: center;
 }
 
-.navigation-list-item {
+.navigation-list-item-home {
 	display: inline-block;
 	text-align: center;
 	width:300px;
@@ -226,6 +245,17 @@ p.introphotos {
 	padding: 50px;
 	margin: 20px;
 	border:1px solid #DCDCDC;
+	font-size: 25px;
+	font-family: "Univers";
+	font-weight: 600;
+}
+
+.nav-home {
+	background-color: #fff;
+    border: 1px solid #DCDCDC;
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
 }
 
 a:link {
@@ -257,10 +287,16 @@ a:active {
 	display: inline;
 }
 
+a.header-link:hover {
+	text-decoration: none;
+}
+
 a.nav {
 	color: #000;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: 15px;
+	font-family: "Univers";
+	font-weight: 600;
 }
 
 a.nav:visited {	
@@ -274,6 +310,27 @@ a.nav:hover {
 }
 
 a.nav:active {
+	color:#000;
+	text-decoration: none;
+}
+
+a.nav-home {
+	color: #000;
+	text-decoration: none;
+	font-size: 25px;
+}
+
+a.nav-home:visited {	
+	color:#000;
+	text-decoration: none;
+}
+
+a.nav-home:hover {
+	color:#000;
+	text-decoration: underline;
+}
+
+a.nav-home:active {
 	color:#000;
 	text-decoration: none;
 }
@@ -319,16 +376,8 @@ a.caption:active {
 	border:1px solid #DCDCDC;
 	display: block;
 	width: 75px;
-	height: 45px;
 	margin-top: 10px;
 	margin-left: 10px;
-	position: fixed;
-	top: 305px;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background-color:#fff;
-	opacity: 30;
 }
 
 a.backbutton-link:link {
@@ -481,28 +530,3 @@ a.backbutton-link:active {
 .faux-ui-facia:nth-child(1):checked ~ .faux-ui-facia:checked + .slide {
   opacity: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
